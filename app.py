@@ -10,5 +10,5 @@ ASSISTANT = "assistant"
 if prompt:
     output, elapsed_time=get_model_output(prompt)
     st.chat_message(USER).write(prompt)
-    st.chat_message(ASSISTANT).write(f"{output}\n Time Taken: {elapsed_time}")
+    st.chat_message(ASSISTANT).write(f"{output}")
 
