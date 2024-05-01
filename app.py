@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 from utils import get_model_output
 st.title('Efficient LLM')
 
